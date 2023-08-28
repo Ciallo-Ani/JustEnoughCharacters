@@ -12,7 +12,6 @@ targetCompatibility = JavaVersion.VERSION_17
 repositories {
     mavenCentral()
     maven { url 'https://maven.parchmentmc.org' }
-    maven { url 'https://dvs1.progwml6.com/files/maven/' }
     maven { url 'https://jitpack.io' }
     maven {
         name "Modmaven"
