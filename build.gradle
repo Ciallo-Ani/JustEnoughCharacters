@@ -11,15 +11,17 @@ targetCompatibility = JavaVersion.VERSION_17
 
 repositories {
     mavenCentral()
-    maven { url 'https://maven.parchmentmc.org' }
-    maven { url 'https://jitpack.io' }
-    maven {
-        name "Modmaven"
-        url "https://modmaven.dev/"
-        content {
-            includeGroup 'appeng'
-        }
-    }
+    maven { url = "https://maven.architectury.dev/" }
+    maven { url = "https://files.minecraftforge.net/maven/" }
+    maven { url = "https://maven.minecraftforge.net/" }
+    maven { url = "https://jitpack.io" }
+    maven { url = "https://dvs1.progwml6.com/files/maven/" }
+    maven { url = "https://maven.blamejared.com/" }
+    maven { url = "https://modmaven.dev" }
+    maven { url = "https://maven.parchmentmc.org" }
+    maven { url = "https://libraries.minecraft.net" }
+    maven { url = "https://maven.terraformersmc.com/releases/" }
+    maven { url = "https://repo.spongepowered.org/repository/maven-public/" }
 }
 
 configurations {
